@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px 100px 5px 100px;
+}
+
+.header-logo {
+    font: 24px #F9FAF8;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.header-links {
+    display:flex;
+    margin-left: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 5px;
+    margin:0;
+}
+
+li {
+    padding: 5px;
+    font-size: 11px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.content {
+    flex: 1;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+}
