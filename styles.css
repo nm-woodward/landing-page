@@ -44,6 +44,7 @@ h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: extra-bold;
+    margin-bottom: 10px;
 }
 .content {
     flex: 1;
@@ -61,9 +62,12 @@ h1 {
 .left-panel, .right-panel {
     display: flex;
     flex-direction: column;
-    flex: 1
+    flex: 1;
 }
 
+.left-panel div {
+    margin-bottom: 10px;
+}
 button {
     background-color: #3882f6;
     color: white;
@@ -86,6 +90,71 @@ button {
     margin: 0;
 }
 
+.middle-block {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+
+}
+
+.middle-block-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    padding: 20px 20px 50px 20px;
+}
+
+.card {
+    margin: 20px;
+    width: 175px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-img {
+    border: 2px solid #3882f6;
+    height: 125px;
+    width: 125px;
+    border-radius: 20px;
+}
+
+.square-subtext {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quote-block {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 75px 200px 75px 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 24px; 
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    margin-left: auto;
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .footer {
     margin-top: auto;
     display: flex;
@@ -93,4 +162,5 @@ button {
     justify-content: center;
     background-color: #1F2937;
     color: white;
+    padding: 15px;
 }
