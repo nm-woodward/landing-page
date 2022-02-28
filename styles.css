@@ -57,6 +57,7 @@ h1 {
     background-color: #1F2937;
     display: flex;
     padding: 100px 250px 100px 250px;
+    flex-basis: 400px;
 
 }
 
@@ -111,6 +112,7 @@ button {
 .cards {
     display: flex;
     padding: 20px 20px 50px 20px;
+    flex-wrap: wrap;
 }
 
 .card {
